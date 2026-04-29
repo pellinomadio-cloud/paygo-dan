@@ -1103,51 +1103,21 @@ const BuyPayIdPage: React.FC = () => {
           <h1 className="text-lg font-bold">Payment Details</h1>
         </div>
 
-        <div className="bg-purple-50 p-6 rounded-[2rem] border border-purple-100 mb-8 dark:bg-gray-800 dark:border-gray-700">
-            <p className="text-[9px] font-bold text-purple-900 mb-3 uppercase tracking-widest dark:text-purple-300 text-center">Transfer to the details below:</p>
-            
-            <div className="space-y-4 mb-6">
-                <div>
-                    <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Account Number</p>
-                    <p className="text-xl font-black text-purple-900 tracking-tight flex items-center justify-between dark:text-white">
-                      2082304742
-                      <button onClick={() => {navigator.clipboard.writeText('2082304742'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
-                    </p>
-                </div>
-                <div>
-                    <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Account Name</p>
-                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">AKEEM PROSPER</p>
-                </div>
-                <div>
-                    <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Bank Name</p>
-                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">KUDA BANK</p>
-                </div>
-            </div>
-        </div>
+        <div className="space-y-6 mb-10 mt-4">
+            <a 
+                href="https://checkout.nomba.com/payment-link/2181903250" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full h-16 bg-purple-600 text-white rounded-2xl text-lg font-bold shadow-xl flex items-center justify-center space-x-3 hover:bg-purple-700 active:scale-[0.98] transition-all"
+            >
+                <i className="fas fa-external-link-alt"></i>
+                <span>Pay Now</span>
+            </a>
 
-        <div className="space-y-4 mb-10">
-            <div>
-                <p className="text-xs font-bold text-gray-700 mb-2 dark:text-gray-300">Upload Payment Proof</p>
-                <div className="relative group">
-                    <input 
-                        type="file" 
-                        accept="image/*"
-                        className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10" 
-                        onChange={handleFileChange}
-                    />
-                    <div className={`w-full h-28 border-2 border-dashed rounded-3xl flex flex-col items-center justify-center transition-all ${
-                      selectedFile ? 'border-green-400 bg-green-50' : 'border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700'
-                    }`}>
-                        {selectedFile ? (
-                          <p className="text-[10px] font-bold text-green-700 uppercase px-4 truncate">{selectedFile.name}</p>
-                        ) : (
-                          <>
-                            <i className="fas fa-cloud-upload-alt text-gray-300 text-2xl mb-1"></i>
-                            <p className="text-[10px] font-bold text-gray-400 uppercase">Click to browse file</p>
-                          </>
-                        )}
-                    </div>
-                </div>
+            <div className="bg-yellow-50 border border-yellow-100 p-4 rounded-2xl dark:bg-yellow-900/20 dark:border-yellow-900/30">
+                <p className="text-[10px] text-yellow-700 font-medium leading-relaxed dark:text-yellow-400">
+                    Once you've completed your payment on the Nomba checkout page, return here and click the "Confirm Payment" button below.
+                </p>
             </div>
 
             {paymentStatus === 'failed' && (
@@ -1161,23 +1131,15 @@ const BuyPayIdPage: React.FC = () => {
             )}
 
             <button 
-                onClick={() => {
-                  if (!selectedFile) {
-                    alert('Please upload your payment proof first.');
-                    return;
-                  }
-                  setPaymentStatus('failed');
-                }}
-                className={`w-full h-14 rounded-2xl text-base font-bold shadow-xl active:scale-95 transition-all flex items-center justify-center space-x-2 ${
-                  selectedFile ? 'bg-slate-900 text-white' : 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                }`}
+                onClick={() => setPaymentStatus('failed')}
+                className="w-full h-16 bg-slate-900 text-white rounded-2xl text-lg font-bold shadow-xl active:scale-95 transition-all flex items-center justify-center space-x-2"
             >
                 <span>Confirm Payment</span>
                 <i className="fas fa-check-circle"></i>
             </button>
             
             <p className="text-[10px] text-gray-400 text-center font-medium px-6">
-              After paying, upload your receipt and click "Confirm Payment" to verify your transaction.
+              After paying, return to this page and click "Confirm Payment" to verify your transaction.
             </p>
         </div>
 
