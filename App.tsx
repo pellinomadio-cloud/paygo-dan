@@ -933,17 +933,17 @@ const UpgradeAccountPage: React.FC = () => {
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Account Number</p>
                     <p className="text-xl font-black text-purple-900 tracking-tight flex items-center justify-between dark:text-white">
-                      6555297951
-                      <button onClick={() => {navigator.clipboard.writeText('6555297951'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
+                      5272994838
+                      <button onClick={() => {navigator.clipboard.writeText('5272994838'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
                     </p>
                 </div>
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Account Name</p>
-                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">DANIEL FUNDS AKEEM</p>
+                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">Daniel F Akeem</p>
                 </div>
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Bank Name</p>
-                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">OPAY</p>
+                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">Moniepoint MFB</p>
                 </div>
             </div>
         </div>
@@ -1110,17 +1110,17 @@ const BuyPayIdPage: React.FC = () => {
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Account Number</p>
                     <p className="text-xl font-black text-purple-900 tracking-tight flex items-center justify-between dark:text-white">
-                      6555297951
-                      <button onClick={() => {navigator.clipboard.writeText('6555297951'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
+                      5272994838
+                      <button onClick={() => {navigator.clipboard.writeText('5272994838'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
                     </p>
                 </div>
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Account Name</p>
-                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">DANIEL FUNDS AKEEM</p>
+                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">Daniel F Akeem</p>
                 </div>
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Bank Name</p>
-                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">OPAY</p>
+                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">Moniepoint MFB</p>
                 </div>
             </div>
         </div>
