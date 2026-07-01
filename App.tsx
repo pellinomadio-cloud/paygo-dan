@@ -302,7 +302,7 @@ const OnboardingWizard: React.FC = () => {
     },
     {
       title: "Get Your PAY ID",
-      text: "To withdraw funds, you'll need to purchase a PAY ID for ₦7,000. This is a one-time purchase that unlocks all features of the app.",
+      text: "To withdraw funds, you'll need to purchase a PAY ID for ₦10,000. This is a one-time purchase that unlocks all features of the app.",
       icon: <i className="fas fa-id-card text-blue-600 text-xl"></i>,
     },
     {
@@ -1201,7 +1201,7 @@ const BuyPayIdPage: React.FC = () => {
           <div className="relative">
             <input 
               readOnly 
-              value="₦7,000" 
+              value="₦10,000" 
               className="w-full h-14 px-6 bg-white rounded-2xl border border-gray-100 text-gray-500 text-sm font-medium shadow-sm outline-none dark:bg-gray-800 dark:border-gray-700"
             />
           </div>
@@ -1550,7 +1550,7 @@ const DashboardPage: React.FC = () => {
     } else if (id === 'group') {
       window.open("https://t.me/legitbussiness2030", "_blank");
     } else if (id === 'support') {
-      window.open("https://t.me/Nijkanolin95z", "_blank");
+      window.open("https://t.me/emergency202782", "_blank");
     }
   };
 
@@ -1703,7 +1703,7 @@ const DashboardPage: React.FC = () => {
       
       {/* WhatsApp Chat Button Floating (matches screenshot) */}
       <button 
-        onClick={() => window.open("https://t.me/Nijkanolin95z", "_blank")}
+        onClick={() => window.open("https://t.me/emergency202782", "_blank")}
         className="fixed bottom-5 right-5 w-12 h-12 bg-purple-600 text-white rounded-full shadow-2xl flex items-center justify-center z-[50] hover:scale-110 active:scale-95 transition-all"
       >
         <i className="fas fa-comment-dots text-xl"></i>
