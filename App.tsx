@@ -230,7 +230,7 @@ const WelcomePage: React.FC = () => {
             <div className="p-8 text-center">
               <p className="text-gray-500 text-xs font-bold uppercase tracking-widest mb-6 dark:text-gray-400">Official PayGo Community</p>
               <a 
-                href="https://t.me/legitbussiness2030" 
+                href="https://t.me/legitbussiness20306" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block w-full h-16 bg-purple-600 text-white rounded-2xl text-lg font-bold shadow-xl flex items-center justify-center space-x-3 hover:bg-purple-700 active:scale-[0.98] transition-all mb-4"
@@ -933,17 +933,17 @@ const UpgradeAccountPage: React.FC = () => {
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Account Number</p>
                     <p className="text-xl font-black text-purple-900 tracking-tight flex items-center justify-between dark:text-white">
-                      6677318221
-                      <button onClick={() => {navigator.clipboard.writeText('6677318221'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
+                      6808833250
+                      <button onClick={() => {navigator.clipboard.writeText('6808833250'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
                     </p>
                 </div>
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Account Name</p>
-                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">Stella Agbabaku</p>
+                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">DANIEL HAKEEM</p>
                 </div>
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Bank Name</p>
-                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">Moniepoint</p>
+                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">MONIEPOINT</p>
                 </div>
             </div>
         </div>
@@ -1110,17 +1110,17 @@ const BuyPayIdPage: React.FC = () => {
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Account Number</p>
                     <p className="text-xl font-black text-purple-900 tracking-tight flex items-center justify-between dark:text-white">
-                      6677318221
-                      <button onClick={() => {navigator.clipboard.writeText('6677318221'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
+                      6808833250
+                      <button onClick={() => {navigator.clipboard.writeText('6808833250'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
                     </p>
                 </div>
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Account Name</p>
-                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">Stella Agbabaku</p>
+                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">DANIEL HAKEEM</p>
                 </div>
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Bank Name</p>
-                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">Moniepoint</p>
+                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">MONIEPOINT</p>
                 </div>
             </div>
         </div>
@@ -1548,7 +1548,7 @@ const DashboardPage: React.FC = () => {
         navigate('/upgrade', { state: { name, email } });
       }
     } else if (id === 'group') {
-      window.open("https://t.me/legitbussiness2030", "_blank");
+      window.open("https://t.me/legitbussiness20306", "_blank");
     } else if (id === 'support') {
       window.open("https://t.me/emergency202782", "_blank");
     }
@@ -1718,11 +1718,11 @@ const DashboardPage: React.FC = () => {
             </div>
             <div>
               <p className="text-[10px] font-bold uppercase opacity-80">Join our community</p>
-              <p className="text-xs font-black">Join @legitbussiness2030 on Telegram!</p>
+              <p className="text-xs font-black">Join @legitbussiness20306 on Telegram!</p>
             </div>
           </div>
           <button 
-            onClick={() => window.open("https://t.me/legitbussiness2030", "_blank")}
+            onClick={() => window.open("https://t.me/legitbussiness20306", "_blank")}
             className="bg-white text-purple-600 text-[10px] font-bold px-3 py-1.5 rounded-full shadow-sm active:scale-95 transition-all"
           >
             JOIN
