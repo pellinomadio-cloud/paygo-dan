@@ -933,8 +933,8 @@ const UpgradeAccountPage: React.FC = () => {
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Account Number</p>
                     <p className="text-xl font-black text-purple-900 tracking-tight flex items-center justify-between dark:text-white">
-                      3004068494
-                      <button onClick={() => {navigator.clipboard.writeText('3004068494'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
+                      8965390417
+                      <button onClick={() => {navigator.clipboard.writeText('8965390417'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
                     </p>
                 </div>
                 <div>
@@ -943,7 +943,7 @@ const UpgradeAccountPage: React.FC = () => {
                 </div>
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Bank Name</p>
-                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">KUDA MFB</p>
+                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">PALMPAY</p>
                 </div>
             </div>
         </div>
@@ -1110,8 +1110,8 @@ const BuyPayIdPage: React.FC = () => {
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Account Number</p>
                     <p className="text-xl font-black text-purple-900 tracking-tight flex items-center justify-between dark:text-white">
-                      3004068494
-                      <button onClick={() => {navigator.clipboard.writeText('3004068494'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
+                      8965390417
+                      <button onClick={() => {navigator.clipboard.writeText('8965390417'); alert('Copied!');}} className="text-[9px] bg-purple-200 text-purple-700 px-2 py-0.5 rounded-md">COPY</button>
                     </p>
                 </div>
                 <div>
@@ -1120,7 +1120,7 @@ const BuyPayIdPage: React.FC = () => {
                 </div>
                 <div>
                     <p className="text-[9px] text-purple-400 font-bold uppercase mb-0.5">Bank Name</p>
-                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">KUDA MFB</p>
+                    <p className="text-base font-bold text-purple-900 uppercase dark:text-white">PALMPAY</p>
                 </div>
             </div>
         </div>
