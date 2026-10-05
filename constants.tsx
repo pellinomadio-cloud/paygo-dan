@@ -25,6 +25,7 @@ export const BANKS = [
   { name: 'Zenith Bank', code: 'zenith' },
   { name: 'Kuda Bank', code: 'kuda' },
   { name: 'Moniepoint', code: 'moniepoint' },
+  { name: 'Paga', code: 'paga' },
 ];
 
 export const PayGoLogo = () => (
